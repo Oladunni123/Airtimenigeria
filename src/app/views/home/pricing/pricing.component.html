@@ -1,0 +1,49 @@
+<h1>Pricing</h1>
+<br>
+<h2>Airtime, Data, Cable TV, Electricity, etc</h2>
+
+<div class="hi">
+    <table class="tableSection">
+        <thead>
+                <th class="tableSpace">PRODUCT/SERVICE</th>
+                <th class="tableSpace">REGULAR</th>
+                <th class="tableSpace">AGENT</th>
+                <th class="tableSpace">DEALER</th>
+                
+        </thead>
+        <h3 class="airtimeR">Airtime Recharge</h3>
+        <tbody *ngFor="let t of items" class="items-container ">
+            <tr>
+                <td class="tableSpace">{{t.name}}</td>
+                <td class="tableSpace">{{t.regular}}</td>
+                <td class="tableSpace">{{t.agent}}</td>
+                <td class="tableSpace">{{t.dealer}}</td>
+            </tr>
+        </tbody>
+        <h3 class="subtext">Data Subscribtion</h3>
+        <tbody *ngFor="let s of subscribtion" class="items-container ">
+            <tr>
+                <td class="tableSpace">{{s.name}}</td>
+                <td class="tableSpace">{{s.regular}}</td>
+                <td class="tableSpace">{{s.agent}}</td>
+                <td class="tableSpace">{{s.dealer}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<!-- <div *ngFor="let t of items">
+    <div class="items-container">
+        <div class="items-list">
+            <div class="item-name"><h3>{{t.name}}</h3></div>
+               <br>
+            <div class="item-regular"><h4>{{t.regular}}</h4></div>
+               <br>
+            <div class="item-agent"><h4>{{t.agent}}</h4></div>
+               <br>
+            <div class="item-dealer"><h4>{{t.dealer}}</h4></div>
+        </div>
+    </div>
+</div>
+  -->
