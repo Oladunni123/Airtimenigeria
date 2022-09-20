@@ -14,6 +14,7 @@ import { LoginComponent } from './views/auth/login/login.component';
 import { SignupComponent } from './views/auth/signup/signup.component';
 import { HomeRoutingModule } from './layout/home/home-routing.module';
 import { AuthRoutingModule } from './layout/auth/auth-routing.module';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AuthRoutingModule } from './layout/auth/auth-routing.module';
     ContactComponent,
     AuthComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
